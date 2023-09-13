@@ -1,0 +1,84 @@
+.box {
+  position: relative;
+  top: 30px;
+  color: red;
+  width: 70vw;
+  border: 4px solid black;
+  height: 200px;
+  background-color: antiquewhite;
+  margin: auto;
+
+  /* animation-name: danish;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 4;
+    animation-direction: alternate; */
+}
+li {
+  /* border: 4px solid green; */
+}
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: right;
+}
+header {
+  height: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  border: 2px solid black;
+  background-color: aqua;
+}
+nav {
+  
+}
+
+body {
+  background-color: rgb(176, 187, 183);
+}
+@keyframes danish {
+  from {
+    width: 100vw;
+    height: 100vh;
+  }
+  to {
+    width: 50vw;
+    height: 50vh;
+  }
+}
+.con{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.item{
+  margin: 10px;
+  pad: 10px;
+  
+    color: red;
+    background: antiquewhite;
+    border: 4px solid black;
+    position: relative;
+    top: 30px;
+    width: 30vw;
+    height: 25vh;
+    /* display: inline-block;
+     */
+
+}
+
+.btn{
+  color: white;
+  background: black;
+border: 2px solid antiquewhite;
+
+
+}
+.btn:hover{
+  color: black;
+  background: white;
+}
